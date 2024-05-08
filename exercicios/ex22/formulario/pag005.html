@@ -6,9 +6,25 @@
     <title>FORMULARIOS</title>
 </head>
 <body>
+    <h2>FORMULARIOS</h2>
+    <fieldset>
+        
+        <legend>sexo</legend>
+        <input type="radio" name="sexo" id="imasculino" checked><label for="imasculino"> masculino</label>
+        <input type="radio" name="sexo" id="ifeminino"> <label for="ifeminino">feminino</label>
+    </fieldset>
+    <fieldset>
+        <legend>
+            esportes favoritos
+        </legend>
+        <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">futebol</label> <br>
+        <input type="checkbox" name="" id="nata"> <label for="nata">natação</label> <br>
+        <input type="checkbox" name="" id="vole"> <label for="vole">volei</label> <br>
+    </fieldset>
+    
     <form action="cadastro.php" method="get">
-<p><input type="submit" value="enviar"></p>
-<p><input type="reset" value="limpar"></p>
+<p><input type="submit" value="enviar">
+<input type="reset" value="limpar"></p>
 
 
     </form>

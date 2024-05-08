@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="cadastro.php" autocomplete="on" method="get"></form>
+    <p><label for="foto">Foto do perfil </label><input type="file" name="foto" id="foto"></p>
+    <p><input type="submit" value="enviar"></p>
+
+    <p><input type="reset" value="resete"></p>
+
+    <p>Selecione seu estado <select name="estado" id="iestado">
+       <option value="" selected>--Escolha--</option>
+        <optgroup label="Região Sudeste">
+            <option value="SP">SÃO PAULO</option>
+            <option value="RS">Rio Grande do SUL</option>
+        </optgroup>
+    </select></p>
+
+    <p><label for="profissao">Profissão</label> <input type="text" name="" id="profissao" list="datalist">
+        <datalist id="datalist">
+            <option value="amdm">administrador</option>
+            <option value="dev">desenvolvedor</option>
+            <option value="pro">professor</option>
+        </datalist>
+ </p>
+
+ <p><label for="msg">mensagem</label> <br>
+<textarea name="" id="" cols="30" rows="10"></textarea></p>
+    
+</body>
+</html>
